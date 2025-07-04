@@ -11,8 +11,6 @@ namespace EcommerceSystem
     {
         static void Main(string[] args)
         {
-            // Replace the incorrect instantiation of the abstract class 'Product' with the instantiation of its derived classes.
-
             var cheese = new Product("Cheese", 100, 10, DateTime.Now.AddDays(5), 0.4); // 400g, expirable, shippable
             var biscuits = new Product("Biscuits", 150, 5, DateTime.Now.AddDays(2), 0.7); // 700g, expirable, shippable
             var tv = new Product("TV", 5000, 3,null, 8.2); // 8kg, shippable
